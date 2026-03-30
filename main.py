@@ -3,7 +3,7 @@ from collections import defaultdict
 from pathlib import Path
 
 DATA_FILE = "kbbi.json"
-MAX_RESULTS_TO_SHOW = 300
+MAX_RESULTS_TO_SHOW = 100
 
 
 def load_words(filepath: str) -> set[str]:
